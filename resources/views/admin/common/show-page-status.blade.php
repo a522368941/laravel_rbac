@@ -1,0 +1,1 @@
+<div class="dataTables_info" id="dynamic-table_info" role="status" aria-live="polite">显示 {{ ($result->currentPage()-1)*$result->perPage() }} - {{ $result->currentPage()*$result->perPage() }}, 总数 {{ $result->total() }} </div>
